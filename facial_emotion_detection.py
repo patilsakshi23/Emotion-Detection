@@ -9,7 +9,7 @@ checkpoint_path = 'checkpoint/best_model.keras'
 final_model = tf.keras.models.load_model(checkpoint_path)
 
 # Label to text dictionary
-label_to_text = {0:'anger', 1:'disgust', 2:'fear', 3:'happiness', 4: 'sadness', 5: 'surprise', 6: 'neutral'}
+label_to_text = {0:'angry', 1:'disgust', 2:'fear', 3:'happy', 4: 'sad', 5: 'surprise', 6: 'neutral'}
 
 # Start capturing video
 cap = cv2.VideoCapture(0)

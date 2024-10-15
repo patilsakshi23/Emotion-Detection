@@ -5,7 +5,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 
-checkpoint_path = 'checkpoint/best_model.keras'
+checkpoint_path = 'best_model.keras'
 final_model = tf.keras.models.load_model(checkpoint_path)
 
 # Label to text dictionary

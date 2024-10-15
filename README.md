@@ -1,1 +1,3 @@
 # Facial-Emotion-Detection
+
+The Real-Time Emotion Detection System leverages deep learning techniques to identify human emotions from facial expressions using video input. The system is built on a convolutional neural network (CNN) trained on the FER2013 dataset, which contains thousands of labeled images representing various emotions. This project aims to provide insights into emotional states through real-time video capture, making it useful for applications in mental health monitoring, user experience enhancement, and interactive gaming.
